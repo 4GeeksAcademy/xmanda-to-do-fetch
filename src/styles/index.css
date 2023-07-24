@@ -10,3 +10,71 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body
+{
+    background: #4568dc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4568dc, #b06ab3); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4568dc, #b06ab3); 
+}
+.listHolder{
+    margin: auto;
+    margin-top: 80px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    width:600px;
+    background-color: white;
+
+}
+.title {
+    text-align: center;
+    font-size: 65px;
+    font-family: Libre Franklin;
+    font-weight: 300;
+    color: #4568dc;
+    margin-bottom: 20px;
+}
+
+ul li{
+    border-bottom: 1px solid #b5c2ee;
+    list-style: none;
+    font-family: Libre Franklin;
+    font-weight: 200;
+    font-size: x-large;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+
+}
+
+ul {
+    margin-right: 30px;
+    margin-top: 40px;
+}
+li {
+    display: flex;
+    align-items: baseline;
+}
+
+input {
+    border: none;
+    width: 100%;
+    font-family: Libre Franklin;
+    font-weight: 200;
+    font-size: x-large;
+}
+
+input::placeholder {
+    color: #b5c2ee;
+}
+
+.delete{
+display:flex;
+justify-content: flex-end;
+color: lightgray;
+}
+
+.taskNumber {
+    text-align: center;
+    color: #7186ca;
+}
